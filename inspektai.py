@@ -145,7 +145,7 @@ with st.container():
 
 
 # Styling
-with open('style.css') as f:
+with open('style_st.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 def local_css(file_name):
