@@ -23,8 +23,11 @@
 # https://jinja.palletsprojects.com/en/2.11.x/
 # html, css and js all in a same folder, either template or static; and run on Live Server
 
-# error handling: 7 (unsolved)
-# only html shows up while running through cmd
+# error handling: 7 (solved)
+# CSS not loading in HTML
+# revised CSS inclusion in HTML   
+first = <!--<link href="css/style.css" rel="stylesheet" type="text/css"/> -->
+modified =   <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet"> 
 
 # error handling: 8 (solved)
 # error while deployment- command/file not found for gunicorn, web: gunicorn, home.html or main.js
