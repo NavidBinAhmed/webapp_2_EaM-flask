@@ -10,4 +10,4 @@ Python
 Flask
 Werkzeug
 jinja2
-gunicorn
+gunicorn==19.7.1
