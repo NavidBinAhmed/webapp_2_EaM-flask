@@ -10,4 +10,4 @@ Python
 Flask
 Werkzeug
 jinja2
-Gunicorn
+gunicorn
