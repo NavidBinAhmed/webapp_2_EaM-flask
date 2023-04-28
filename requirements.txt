@@ -4,7 +4,6 @@ numpy
 plost
 plotly
 Pillow
-PIL
 streamlit_option_menu
 Python
 Flask
