@@ -5,7 +5,6 @@ plost
 plotly
 Pillow
 streamlit_option_menu
-Python
 Flask
 Werkzeug
 jinja2
