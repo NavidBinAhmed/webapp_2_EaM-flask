@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # error handling: 1 (solved)
 # flask 'No module' error appeared, so used the following command to upgrade pip to solve:
 # python -m pip install --upgrade pip
@@ -31,4 +32,36 @@ modified =   <link href="{{ url_for('static', filename='css/style.css') }}" rel=
 
 # error handling: 8 (solved)
 # error while deployment- command/file not found for gunicorn, web: gunicorn, home.html or main.js
+=======
+# error handling: 1 (solved)
+# flask 'No module' error appeared, so used the following command to upgrade pip to solve:
+# python -m pip install --upgrade pip
+# source (https://stackoverflow.com/questions/37220055/pip-fatal-error-in-launcher-unable-to-create-process-using)
+
+# error handling: 2 (solved)
+# image on  HTML was not showing in browser, had to install liver server on VSC
+
+# error handling: 3 (solved)
+# Images were not displayed + only files were showing (html, css taken into the same folder) 
+ 
+# error handling: 4 (solved)
+# live server was not working (app.py was configuared and verified port)
+ 
+# error handling: 5 (solved)
+# H1 heading and paragraph were not aligned across
+# Solved by removing hero-section parent func 
+# https://www.youtube.com/watch?v=s3GTej92hvU&list=PL0-e1OMq5RP4BIrTQPrqu6Jxsfp94xK8Z&index=7
+
+# error handling: 6 (solved)
+# template not found, listing directory
+# https://flask.palletsprojects.com/en/1.1.x/quickstart/#static-files
+# https://jinja.palletsprojects.com/en/2.11.x/
+# html, css and js all in a same folder, either template or static; and run on Live Server
+
+# error handling: 7 (unsolved)
+# only html shows up while running through cmd
+
+# error handling: 8 (solved)
+# error while deployment- command/file not found for gunicorn, web: gunicorn, home.html or main.js
+>>>>>>> b9be286ae46291b1b98512181221cafddad31e2c
 # I used text -r reqyurements, along with command 'gunicorn app:app'

@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+plost
+plotly
+Pillow
+streamlit_option_menu
+Flask
+Werkzeug
+jinja2
+gunicorn
