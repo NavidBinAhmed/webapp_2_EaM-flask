@@ -8,8 +8,8 @@ def hello_world():
      return render_template('home.html')
 
 @app.route('/inspect')
-def products():
-    return 'This is self inspection page'
+def inspect():
+    return render_template('inspektai.py')
 
 if __name__ =="__main__":
     app.run(debug=True, port= 5500)
