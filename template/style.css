@@ -469,11 +469,9 @@ footer {
   margin-top: 0px;
 }
 
-
-/*
 .nav-foot {
   display: flex;
-  justify-content: right;
+  justify-content: center;
   align-items: center;
   position: fixed;
   width: 1470px;
@@ -498,7 +496,7 @@ footer {
   top: 4.46px;
   margin: 20px;
 }
-
+/*
 .logo.enrol-icon::before {
   content: url('../images/logoimage_2.svg');
 }
