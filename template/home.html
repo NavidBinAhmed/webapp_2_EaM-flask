@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css"/>
+  <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">  
 </head>
 <body>
   <header> 
@@ -60,7 +60,7 @@
 
   <section class="About-Us-Section">
     <div class="left">
-      <img src="../images/About_us_image.png" alt="">
+      <img src="../static/images/About_us_image.png" alt="">
     </div>
 
     <div class="right">
@@ -69,19 +69,19 @@
         That's where our advanced building inspection technology comes in. Our AI <br/> software and drone technology work together to provide comprehensive <br/> assessments of your building's exterior and identify any issues before they <br/> become major problems.</p> <br/><br/>
 
       <div class="services">
-        <img src="../images/LT_icon.png" alt="">
+        <img src="../static/images/LT_icon.png" alt="">
         <div class="content">Roof damage</div>
       </div> <br />
       <div class="services">
-        <img src="../images/RT_icon.png" alt="">
+        <img src="../static/images/RT_icon.png" alt="">
         <div class="content">Exterior wall cracks and damage</div>
       </div> <br />
       <div class="services">
-        <img src="../images/LD_icon.png" alt="">
+        <img src="../static/images/LD_icon.png" alt="">
         <div class="content">Chimney and gutter damage</div>
       </div> <br />
       <div class="services">
-        <img src="../images/RD_icon.png" alt="">
+        <img src="../static/images/RD_icon.png" alt="">
         <div class="content">Water damage and leaks</div>
     </div>
   </section>
@@ -95,7 +95,7 @@
         <p>Our AI software analyzes the data collected during the inspection and provides <br /> detailed reports on any issues found, including recommendations for repairs and <br /> maintenance.</p>
       </div>
       <div class="bottom">
-        <img src="../images/expect.png" alt="">
+        <img src="../static/images/expect.png" alt="">
       </div>
     </section>
   </div>
@@ -107,7 +107,7 @@
     <h2>How Our Solution Can <br /> Help You</h2>
     <div class="cards">
       <div class="help-cards1">
-        <img src="../images/solution_drone.png" alt="" width=”20px” height="auto">
+        <img src="../static/images/solution_drone.png" alt="" width=”20px” height="auto">
         <div class="info">
           <h3>Wisdom For The Battle <br /> To Protect Your Building</h3>
           <p>Fast and accurate assessments <br /> of your building's exterior</p>
@@ -115,7 +115,7 @@
       </div>
 
       <div class="help-cards2">
-        <img src="../images/solution_report.png" alt="" width=”20px” height=”20px”>
+        <img src="../static/images/solution_report.png" alt="" width=”20px” height=”20px”>
         <div class="info">
           <h3>Detailed Reporting <br /> System</h3>
           <p>Detailed reports with <br /> recommendations for repairs <br /> and maintenance</p>
@@ -123,7 +123,7 @@
       </div>
 
       <div class="help-cards3">
-        <img src="../images/solution_risk.png" alt="" width=”20px” height=”20px”>
+        <img src="../static/images/solution_risk.png" alt="" width=”20px” height=”20px”>
         <div class="info">
           <h3>reduction of property <br /> risk for owners</h3>
           <p>Reduced costs compared to <br /> traditional inspections</p>
@@ -131,7 +131,7 @@
       </div>
 
       <div class="help-cards4">
-        <img src="../images/solution_inspection.png" alt="" width=”20px” height=”20px”>
+        <img src="../static/images/solution_inspection.png" alt="" width=”20px” height=”20px”>
         <div class="info">
           <h3>Professional Facade <br /> inspection</h3>
           <p>Increased safety for inspectors</p>
@@ -158,7 +158,7 @@
           inspection are reduced by at least 50%.</p>
           <div class="download">
             <div class="download-btn">
-              <img src="../images/case_st_1.jpg" alt=""> </br>
+              <img src="../static/images/case_st_1.jpg" alt=""> </br>
               <span>DOWNLOAD FILE</span>
             </div>
           </div>
@@ -171,7 +171,7 @@
             inspection are reduced by at least 50%.</p>
           <div class="download">
             <div class="download-btn">
-              <img src="../images/case_st_1.jpg" alt=""> </br>
+              <img src="../static/images/case_st_1.jpg" alt=""> </br>
               <span>DOWNLOAD FILE</span>
             </div>
           </div>
@@ -187,7 +187,7 @@
         Try Our Free Self<br /> Inspection Tool to <br />Know You Building <br />Condition
       </h1>     
       <a href="#" class="btn dark">INSPECT NOW</a>
-      <img src="../images/root_14.png" alt=""/>
+      <img src="../static/images/root_14.png" alt=""/>
   </section>
 </div>
 <!--End of Final section -->
@@ -216,7 +216,7 @@
       </nav-foot>
     </footer>  
 
-  <script src="main.js"></script>
+<script src="main.js"></script>
   
  </body>
 </html>
