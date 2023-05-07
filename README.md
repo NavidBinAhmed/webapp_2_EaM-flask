@@ -1,5 +1,5 @@
 # dashboard
 
-[![Inspekt AI Tool](https://freebuildinginspection.onrender.com/)
+[Inspekt AI Tool](https://freebuildinginspection.onrender.com/)
 
 
