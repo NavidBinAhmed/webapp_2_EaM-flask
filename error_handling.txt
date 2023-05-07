@@ -25,7 +25,7 @@
 
 # error handling: 7 (solved)
 # CSS not loading in HTML
-# revised CSS inclusion in HTML   
+# revised CSS inclusion in HTML using a link instead of using folder  
 first = <!--<link href="css/style.css" rel="stylesheet" type="text/css"/> -->
 modified =   <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet"> 
 
