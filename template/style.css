@@ -496,6 +496,9 @@ footer {
   top: 4.46px;
   margin: 20px;
 }
+.show {
+  visibility: visible;
+}
 /*
 .logo.enrol-icon::before {
   content: url('../images/logoimage_2.svg');
