@@ -1,0 +1,52 @@
+{% extends 'home.html' %}
+{% block modal %}
+<div class="modal gray" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New inspection</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="building-picture" class="col-form-label">Enter a picture of your building</label>
+            <input type="input" class="form-control" id="building-picture">
+          </div>
+
+          <div class="form-group">
+            <label for="building-material" class="col-form-label">Primary and secondary building material for the facade</label>
+            <input type="text" class="form-control" id="building-material">
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="col-form-label">Enter your email address</label>
+            <input type="text" class="form-control" id="email">
+          </div>
+
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Your message for us</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block script %}
+
+<script>
+$(document).ready(function(){
+    console.log("window is loaded")
+    $("#exampleModal").modal("show")
+})
+</script>
+
+{% endblock %}
