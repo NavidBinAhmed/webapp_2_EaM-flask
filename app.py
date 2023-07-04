@@ -9,7 +9,8 @@ def hello_world():
 
 @app.route('/inspect')
 def inspect():
-    return render_template('inspektai.py')
+    return render_template('modal.html')
+
 
 if __name__ =="__main__":
     app.run(debug=True)
