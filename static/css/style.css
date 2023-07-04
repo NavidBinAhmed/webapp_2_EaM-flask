@@ -509,6 +509,10 @@ footer {
   text-decoration: none;
 }
 
+.show {
+  visibility: visible;
+}
+
 /*
 footer a{
   text-decoration: none;
