@@ -11,6 +11,6 @@
 
 
 ## Link
-To visit the site, click here: [Inspekt AI Tool](https://freebuildinginspection.onrender.com/)
+To visit the site, click here: [InspektAI Tool](https://freebuildinginspection.onrender.com/)
 
 
