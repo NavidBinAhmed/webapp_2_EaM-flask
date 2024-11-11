@@ -14,3 +14,31 @@
 To visit the site, click here: [InspektAI Tool](https://freebuildinginspection.onrender.com/)
 
 
+## Procedure
+
+- Creating virtual environment:
+```
+python -m venv InspektDashboard
+```
+
+- Activation of environment
+```
+.\InspektDashboard\Scripts\activate
+```
+  
+- Git Commands
+```
+git status
+```
+
+```
+git add .
+```
+
+```
+git commit -m "update"
+```
+
+```
+git push origin main
+```
