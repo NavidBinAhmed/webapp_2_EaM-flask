@@ -14,6 +14,10 @@
 To visit the site, click here: [InspektAI Tool](https://freebuildinginspection.onrender.com/)
 
 
+![Untitled video - Made with Clipchamp](https://github.com/user-attachments/assets/f66157ef-1ee8-4170-b4c9-60602ad19fdf)
+
+
+
 ## Procedure
 
 - Creating virtual environment:
